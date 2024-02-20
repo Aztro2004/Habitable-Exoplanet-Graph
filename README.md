@@ -18,6 +18,7 @@ This study is key to understanding the formation of the solar system, contribute
 For these reasons it seems to us of great importance to contribute and help the study of the planets, their characteristics, the similarities they have with each other can be visualized in a more friendly way, so we will develop a filter with the help of information provided by an database of the NASA that gives us real and reliable data of the different planets some of its characteristics such as the year they were discovered, the method they used for discovery, the place where it was discovered and other parameters with specific data that can help experts in the field to determine the changes that may have the planets in a given time, or even to know data that did not know the specific planet, facilitating the recognition of patterns in certain time.
 
 # Justification
+![Diagram](https://github.com/Aztro2004/Exoplanet-similarity-filter/assets/111297109/16613ca2-2fd8-4367-b7b0-904120a00516)
 
 The making of this project has an objective of giving the user an easy to use solution to a problem that we can see on the NASA platform of exoplanets. What is that problem? The internet connection that is obligatory to access to the filters and also the flexibility of the platform in terms of customization and visualization of some other data. 
 
@@ -54,3 +55,4 @@ The problem issues several objectives that we want to put this way: Can this tas
    * AWS
    * 
 # General System Architecture
+![Diagram](https://github.com/Aztro2004/Exoplanet-similarity-filter/assets/111297109/ab5458b9-9007-4ac1-8e62-ab94a7e9457f)
