@@ -11,7 +11,7 @@ GNU General Public License v3.0
 # Introduction
 # Justification
 # Hypothesis
-## Objetives
+## Objectives
 * Implement a mechanism to retrieve planet data from the NASA Exoplanet Archive or a similar database.
 * Ease the recognition of characteristics between planets.
 * Identify key features of planets that determine similarity.
