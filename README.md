@@ -7,7 +7,7 @@ Exoplanet similarity filter
 * Diego Maldonado Castro: thebrogrrs@gmail.com
 # License
 GNU General Public License v3.0
-# Afilation
+# Affilation
 # Introduction
 # Justification
 # Hypothesis
