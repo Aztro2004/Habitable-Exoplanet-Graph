@@ -18,6 +18,8 @@ The making of this project has an objective of giving the user an easy to use so
 So, we want to offer a solution to users who use this platform on how they access to the information that they want based on characteristics of the exoplanet, and give them tools to visualize the data, even helping to see patterns on it. It may then offer an easy to use tool when no internet is available or, if the user itself wants to go deeper on observations of the data thanks to the flexibility of this program. 
   
 # Hypothesis
+The problem issues several objectives that we want to put this way: Can this task be done on a fast and easy way for the user even if its not a computer science person? The way we see it, we state that is possible; having defined the variables that are attached to exoplanets by the NASA,  we can program a tool to read, filter and show the info that a CSV from the web page. 
+
 ## Objectives
 * Implement a mechanism to retrieve planet data from the NASA Exoplanet Archive or a similar database.
 * Ease the recognition of characteristics between planets.
