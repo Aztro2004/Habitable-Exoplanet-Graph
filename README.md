@@ -19,12 +19,12 @@ Final project for the 2024-2 Distributed Computing (Cloud Computing) class, desi
 * Filter planets given a planet of reference and its metrics.
 * Implement a search algorithm that uses the similarity metric to find planets similar to the given planet.
 # Tools
-*API Expo Planet Archive | https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS
-*Python 3
-*Library of the Python:
-    *Pandas
-    *Numpy
-    *Request
-    *Mathplotlib
+* API Expo Planet Archive | https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS
+* Python 3
+* Library of the Python:
+    * Pandas
+    * Numpy
+    * Request
+    * Mathplotlib
 
 # General System Architecture
