@@ -35,7 +35,7 @@ Final project for the 2024-2 Distributed Computing (Cloud Computing) class, desi
    * Datasets of Pandas
    * MySQL
 * Others:
-   *Bash
+   * Bash
    * Docker
    * AWS
    * 
