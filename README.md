@@ -15,7 +15,7 @@ Exploration of the planets has advanced significantly with modern technology, in
 This study is key to understanding the formation of the solar system, contributes to the protection of the Earth against cosmic threats, maintains the orbital stability of the solar system through its masses and gravities avoiding collisions, helps regulate temperature by absorbing and reflecting solar radiation influencing the Earth's climate, also allows us to understand its development, its orbital movements and therefore its climatic conditions, is essential for space exploration, facilitating the planning of missions, offers us perspectives on the formation and evolution of the solar system and therefore promotes technological advances with terrestrial applications. 
 
 
-For these reasons it seems to us of great importance to contribute and help the study of the planets, their characteristics, the similarities they have with each other can be visualized in a more friendly way, so we will develop a filter with the help of information provided by an API and NASA that gives us real and reliable data of the different planets some of its characteristics such as the year they were discovered, the method they used for discovery, the place where it was discovered and other parameters with specific data that can help experts in the field to determine the changes that may have the planets in a given time, or even to know data that did not know the specific planet, facilitating the recognition of patterns in certain time.
+For these reasons it seems to us of great importance to contribute and help the study of the planets, their characteristics, the similarities they have with each other can be visualized in a more friendly way, so we will develop a filter with the help of information provided by an database and NASA that gives us real and reliable data of the different planets some of its characteristics such as the year they were discovered, the method they used for discovery, the place where it was discovered and other parameters with specific data that can help experts in the field to determine the changes that may have the planets in a given time, or even to know data that did not know the specific planet, facilitating the recognition of patterns in certain time.
 
 # Justification
 
@@ -33,7 +33,7 @@ The problem issues several objectives that we want to put this way: Can this tas
 * Filter planets given a planet of reference and its metrics.
 * Implement a search algorithm that uses the similarity metric to find planets similar to the given planet.
 # Tools
-* API Expo Planet Archive | https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS
+* Database Expo Planet Archive | https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS
 * Python 3
 * Library of the Python:
     * Pandas
