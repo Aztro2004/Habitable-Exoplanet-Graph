@@ -8,6 +8,7 @@ Exoplanet similarity filter
 # License
 GNU General Public License v3.0
 # Affilation
+Final project for the 2024-2 Distributed Computing (Cloud Computing) class, designed and developed at the Universidad Nacional Autonoma de México(UNAM), at the Escuela Nacional de Estudios Superiores (ENES Morelia). This project is carried out by students of the Bachelor's Degree in Technologies for Information in the Sciences.
 # Introduction
 # Justification
 # Hypothesis
