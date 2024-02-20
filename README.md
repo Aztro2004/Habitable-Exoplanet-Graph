@@ -1,6 +1,7 @@
 # Exoplanet-similarity-filter
+# Description
 Exoplanet similarity filter
-## Members
+## Members and Contact
 * Ángel jalg030129@gmail.com
-* Erika (pongan su nombre y su correo xd)
+* Erika Monserrat Correa Hernández | erikacorreahdezene@gmail.com
 * Diego Maldonado Castro: thebrogrrs@gmail.com
