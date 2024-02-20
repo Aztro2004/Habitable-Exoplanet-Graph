@@ -31,8 +31,12 @@ Final project for the 2024-2 Distributed Computing (Cloud Computing) class, desi
     * seaborn
     * astroquery
     * mysql
-*For Databases:
+* For Databases:
    * Datasets of Pandas
    * MySQL
-
+* Others:
+   *Bash
+   * Docker
+   * AWS
+   * 
 # General System Architecture
