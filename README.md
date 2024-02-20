@@ -26,5 +26,13 @@ Final project for the 2024-2 Distributed Computing (Cloud Computing) class, desi
     * Numpy
     * Request
     * Mathplotlib
+    * scikit-learn
+    * scipy.spatial.distance
+    * seaborn
+    * astroquery
+    * mysql
+*For Databases:
+   * Datasets of Pandas
+   * MySQL
 
 # General System Architecture
