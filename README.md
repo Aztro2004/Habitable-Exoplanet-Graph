@@ -12,6 +12,11 @@ Final project for the 2024-2 Distributed Computing (Cloud Computing) class, desi
 # Introduction
 
 # Justification
+
+The making of this project has an objective of giving the user an easy to use solution to a problem that we can see on the NASA platform of exoplanets. What is that problem? The internet connection that is obligatory to access to the filters and also the flexibility of the platform in terms of customization and visualization of some other data. 
+
+So, we want to offer a solution to users who use this platform on how they access to the information that they want based on characteristics of the exoplanet, and give them tools to visualize the data, even helping to see patterns on it. It may then offer an easy to use tool when no internet is available or, if the user itself wants to go deeper on observations of the data thanks to the flexibility of this program. 
+  
 # Hypothesis
 ## Objectives
 * Implement a mechanism to retrieve planet data from the NASA Exoplanet Archive or a similar database.
