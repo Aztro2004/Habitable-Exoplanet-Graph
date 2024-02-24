@@ -1,4 +1,4 @@
-# Exoplanet-similarity-filter
+# Exoplanet Habitable Zone Graphing
 ## Members and Contact
 * José Ángel López Gutiérrez | jalg030129@gmail.com
 * Erika Monserrat Correa Hernández | erikacorreahdezene@gmail.com
