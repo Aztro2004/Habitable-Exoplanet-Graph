@@ -28,8 +28,8 @@ The problem issues several objectives that we want to put this way: Can this tas
 
 ## Objectives
 * Implement a mechanism to retrieve planet data from the NASA Exoplanet Archive or a similar database.
-* Ease the visualization of planets in a inhabitable zone.
-* Graph planets if they are in a inhabitable zone.
+* Ease the visualization of planets in a habitable zone.
+* Graph planets if they are in a habitable zone.
 * Implement a search algorithm that finds exo-planets in the habitable zone.
 # Tools
 * Database Expo Planet Archive | https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS
