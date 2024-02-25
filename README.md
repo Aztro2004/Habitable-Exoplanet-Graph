@@ -25,7 +25,7 @@ The problem issues several objectives that we want to put this way: Can this tas
 ## General Objetive 
 Our overall goal is that anyone who loves astronomy and planets, from the amateur enthusiast, the person curious about habitable planets and even the experienced scientist, can travel through our website and can observe and perform an intuitive search for exoplanets located in habitable zones in an advanced system of data analysis and visualization that we will develop taking advantage of the information that NASA gives us about the planets.
 
-## Objectives
+## Particular Objectives
 * Implement a mechanism to retrieve planet data from the NASA Exoplanet Archive or a similar database.
 * Ease the visualization of planets in a habitable zone.
 * Graph planets if they are in a habitable zone.
