@@ -47,7 +47,7 @@ The problem issues several objectives that we want to put this way: Can this tas
    * Bash
    * Docker
    * AWS
-   * 
+     
 ## General System Architecture
 
 ![Diagram_Architecture](https://github.com/Aztro2004/Habitable-Exoplanet-Graph/assets/111297109/9b13460a-bf80-42bc-a3be-06dbd8e36c20)
