@@ -49,4 +49,5 @@ The problem issues several objectives that we want to put this way: Can this tas
    * AWS
    * 
 ## General System Architecture
-![Diagram](https://github.com/Aztro2004/Exoplanet-similarity-filter/assets/111297109/ab5458b9-9007-4ac1-8e62-ab94a7e9457f)
+
+![Diagram_Architecture](https://github.com/Aztro2004/Habitable-Exoplanet-Graph/assets/111297109/9b13460a-bf80-42bc-a3be-06dbd8e36c20)
