@@ -17,9 +17,7 @@ Thid is were the Habitable Graph Simulator Project comes in. This project emerge
 
 ## Justification
 
-The making of this project has an objective of giving the user an easy to use solution to a problem that we can see on the NASA platform of exoplanets. What is that problem? The internet connection that is obligatory to access to the filters and also the flexibility of the platform in terms of customization and visualization of some other data. 
-
-So, we want to offer a solution to users who use this platform on how they access to the information that they want based on characteristics of the exoplanet, and give them tools to visualize the data, even helping to see patterns on it. It may then offer an easy to use tool when no internet is available or, if the user itself wants to go deeper on observations of the data thanks to the flexibility of this program. 
+This proyect aims to ease the visualization of planets in a habitable zone. By retrieving the numeric data given in the NASA Exoplanet Archive and processing it to display a 3D simulation graph we pretend to ease the visualization of the information that can sometimes be hardly interpreted by someone that doesn't have sufficient knowldedge to understand rough data of an exoplanet.
   
 ## Hypothesis
 The problem issues several objectives that we want to put this way: Can this task be done on a fast and easy way for the user even if its not a computer science person? The way we see it, we state that is possible; having defined the variables that are attached to exoplanets by the NASA,  we can program a tool to read, filter and show the info that a CSV from the web page. 
