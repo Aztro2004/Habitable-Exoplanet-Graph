@@ -22,6 +22,9 @@ This proyect aims to ease the visualization of planets in a habitable zone. By r
 ## Hypothesis
 The problem issues several objectives that we want to put this way: Can this task be done on a fast and easy way for the user even if its not a computer science person? The way we see it, we state that is possible; having defined the variables that are attached to exoplanets by the NASA,  we can program a tool to read, filter and show the info that a CSV from the web page. 
 
+## General Objetive 
+Our overall goal is that anyone who loves astronomy and planets, from the amateur enthusiast, the person curious about habitable planets and even the experienced scientist, can travel through our website and can observe and perform an intuitive search for exoplanets located in habitable zones in an advanced system of data analysis and visualization that we will develop taking advantage of the information that NASA gives us about the planets.
+
 ## Objectives
 * Implement a mechanism to retrieve planet data from the NASA Exoplanet Archive or a similar database.
 * Ease the visualization of planets in a habitable zone.
