@@ -13,7 +13,7 @@ Exploration of the planets has advanced significantly with modern technology, in
 A habtiable zone is the distance from a star at which liquid water has the possibility of existing on orbiting planets’ surfaces. Habitable zones can also be known as Goldilocks’ zones, where conditions might be  neither too hot nor too cold for life. 
 
 
-Thid is were the Habitable Graph Simulator Project takes places. This project emerges from building on the foundation laid by the informarion already given about exoplanets. This project seeks to leverage  simulation technology to create a comprehensive and interactive model of potentially habitable planets within these Goldilocks zones. By synthesizing data from sources, including the NASA exoplanet archive, this Habitable Exoplanet Graphing Project aims to provide a tool for the visualization and study of these distant worlds.
+Thid is were the Habitable Graph Simulator Project comes in. This project emerges from building on the foundation laid by the informarion already given about exoplanets. This project seeks to leverage  simulation technology to create a comprehensive and interactive model of potentially habitable planets within these Goldilocks zones. By synthesizing data from sources, including the NASA exoplanet archive, this Habitable Exoplanet Graphing Project aims to provide a tool for the visualization and study of these distant worlds.
 
 ## Justification
 
