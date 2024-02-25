@@ -27,7 +27,7 @@ The problem issues several objectives that we want to put this way: Can this tas
 * Ease the visualization of planets in a habitable zone.
 * Graph planets if they are in a habitable zone.
 * Implement a search algorithm that finds exo-planets in the habitable zone.
-# Tools
+## Tools
 * Database Expo Planet Archive | https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PS
 * Python 3
 * Library of the Python:
