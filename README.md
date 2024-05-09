@@ -41,7 +41,7 @@ Our overall goal is that anyone who loves astronomy and planets, from the amateu
     * scipy.spatial.distance
     * seaborn
     * astroquery
-    * mysql
+    *  mpl_toolkits.mplot3d
 * For Databases:
    * Datasets of Pandas
    * MySQL
