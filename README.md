@@ -1,7 +1,7 @@
 # Habitable Exoplanet Graph
 ## Members and Contact
 * José Ángel López Gutiérrez | jalg030129@gmail.com
-* Erika Monserrat Correa Hernández | erikacorreahdezene@gmail.com
+* Erika Monserrat Correa Hernández | erikacorreahdezenes@gmail.com
 * Diego Maldonado Castro  | thebrogrrs@gmail.com
 ## License
 GNU General Public License v3.0
