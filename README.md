@@ -57,7 +57,7 @@ Our overall goal is that anyone who loves astronomy and planets, from the amateu
      
 ## General System Architecture
 
-![Diagram_Architecture](https://github.com/Aztro2004/Habitable-Exoplanet-Graph/assets/111297109/9b13460a-bf80-42bc-a3be-06dbd8e36c20)
+![Diagram_Architecture](https://github.com/Aztro2004/Habitable-Exoplanet-Graph/blob/main/Architecture.jpg)
 
 ## Results
 
