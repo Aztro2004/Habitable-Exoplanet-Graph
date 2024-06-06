@@ -1,7 +1,7 @@
 # Habitable Exoplanet Graph
 ## Members and Contact
 * José Ángel López Gutiérrez | jalg030129@gmail.com
-* Erika Monserrat Correa Hernández | erikacorreahdezene@gmail.com
+* Erika Monserrat Correa Hernández | erikacorreahdezenes@gmail.com
 * Diego Maldonado Castro  | thebrogrrs@gmail.com
 ## License
 GNU General Public License v3.0
@@ -41,15 +41,29 @@ Our overall goal is that anyone who loves astronomy and planets, from the amateu
     * scipy.spatial.distance
     * seaborn
     * astroquery
-    * mysql
+    *  mpl_toolkits.mplot3d
 * For Databases:
    * Datasets of Pandas
-   * MySQL
+
 * Others:
    * Bash
    * Docker
    * AWS
+   * GIT
      
 ## General System Architecture
 
 ![Diagram_Architecture](https://github.com/Aztro2004/Habitable-Exoplanet-Graph/assets/111297109/9b13460a-bf80-42bc-a3be-06dbd8e36c20)
+
+## Results
+
+
+As the end of the project arrived, we saw what we can achieve with it, which was the creation and renderization of some exoplanets that, based on the filters we state before, are habitable, and rendered on a 3D image. Also,  even when the csv had some missing data, based on different criterias the orbits and size of the planets are an approximation only.
+The result that we got is that filtering that kind of data can be tricky(Not unusual as you may expect for people who aren't familiar with exoplanets), so the file filter.ipynb can be improved with help of professionals that know the topic well. In the end we have a small piece of software that is useful for so many reasons, the first one is that this tool, if upgraded, can help us visualize where all the exoplanets are, in terms of the earth position.
+
+
+
+## Conclusion
+
+The making of a system like this involves different kind of knowledges and abilities, some of them we do not possess as a matter of being experts on the topic, beyond that, we feel pleased with the results that we achieve, so if someone comes and uses our software we be sure about they getting some new knowledge, information or at least an idea about how this works on transforming a big csv to a small one, then visualize it and in the end making it a website about it 
+
