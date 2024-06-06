@@ -1,0 +1,153 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--
+Template Name: Nocobot
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title> Gallery </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'css/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear">
+    <div class="fl_left"> 
+      <!-- ################################################################################################ -->
+     
+      <!-- ################################################################################################ -->
+    </div>
+  
+          
+              </fieldset>
+            </form>
+          </div>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded" style="background-image:url('static/img/images/demo/backgrounds/01.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+        <!-- ################################################################################################ -->
+        <h1><a href="{% url 'galeria' %}">Gallery of  Exoplanets</a></h1>
+        <!-- ################################################################################################ -->
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        <!-- ################################################################################################ -->
+        <ul class="clear">
+          <li><a href="{% url 'inicio' %}">Home</a></li>
+          <li class="active"><a class="drop" href="#">Pages</a>
+            <ul>
+              <li class="active"><a href="{% url 'galeria' %}">Gallery of Exoplanets</a></li>
+              <li><a href="{% url 'todos' %}">All Exoplanets</a></li>
+          
+            </ul>
+          </li>
+         
+        <!-- ################################################################################################ -->
+      </nav>
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="overlay">
+  
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <style>
+        /* Estilos para el collage */
+        .collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px;
+        }
+    
+        .foto {
+            flex: 1 1 400px; /* Crece y se encoge desde la base de 200px */
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px; /* Opcional, para bordes redondeados */
+            border: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional, para sombra */
+        }
+    </style>
+    </head>
+    <body>
+      <div class="collage">
+        <div class="foto"><img src="{% static 'img/images/demo/Exoplanets/planet_orbit_0.png' %}" alt="Imagen 1"></div>
+        <div class="foto"><img src="{% static 'img/images/demo/Exoplanets/planet_orbit_20.png' %}" alt="Imagen 2"></div>
+        <div class="foto"><img src="{% static 'img/images/demo/Exoplanets/planet_orbit_50.png' %}" alt="Imagen 3"></div>
+        <div class="foto"><img src="{% static 'img/images/demo/Exoplanets/planet_orbit_65.png' %}" alt="Imagen 4"></div>
+        <!-- Agrega más imágenes según sea necesario -->
+    </div>
+      <!-- ################################################################################################ -->
+      <!-- ################################################################################################ -->
+      
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+    </div>
+ 
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved </p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

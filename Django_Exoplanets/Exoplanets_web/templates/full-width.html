@@ -1,0 +1,176 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--
+Template Name: Nocobot
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Exoplanets</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'css/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+
+<style>
+  .carousel-container {
+    position: relative;
+    max-width: 1000px; /* ajusta el ancho según tu preferencia */
+    margin: auto;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel-slide img {
+    scroll-snap-align: center;
+    width: 100%;
+  }
+  
+  #prevBtn,
+  #nextBtn {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #prevBtn {
+    left: 0;
+  }
+  
+  #nextBtn {
+    right: 0;
+  }
+  </style>
+
+</head>
+
+<body id="top">
+
+<!-- ################################################################################################ -->
+
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear">
+  </div>
+</div>
+
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded" style="background-image:url('../static/img/images/demo/backgrounds/01.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+        <!-- ################################################################################################ -->
+        <h1><a href="{% url 'todos' %}">All Exoplanets</a></h1>
+        <!-- ################################################################################################ -->
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        <!-- ################################################################################################ -->
+        <ul class="clear">
+          <li><a href="{% url 'inicio' %}">Home</a></li>
+          <li class="active"><a class="drop" href="#">Pages</a>
+            <ul>
+              <li><a href="{% url 'galeria' %}">Gallery Of Exoplanets </a></li>
+          </li>
+          
+  <!-- ################################################################################################ -->
+  <div class="overlay">
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+
+<div class="wrapper row3">
+  <main class="hoc container clear">
+
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+     <h1 align="center">VISUALIZATION AND RELEVANT INFORMATION OF THE EXOPLANETS FOUND</h1>
+     <body>
+
+      <div class="carousel-container">
+        <button id="prevBtn" onclick="prevImage()">Anterior</button>
+        <div class="carousel-slide">
+          <!-- Las imágenes se cargarán aquí -->
+        </div>
+        <button id="nextBtn" onclick="nextImage()">Siguiente</button>
+      </div>
+      
+      <script>
+      let currentIndex = 0;
+      
+      function showImages() {
+        const carouselSlide = document.querySelector('.carousel-slide');
+        carouselSlide.innerHTML = ''; // Limpia el contenido anterior
+        
+        for (let i = 0; i < 65; i++) {
+          const img = document.createElement('img');
+          img.src = `../static/img/images/demo/Exoplanets/planet_orbit_${i}.png`; // Ajusta la ruta de la imagen según tu estructura
+          carouselSlide.appendChild(img);
+        }
+      }
+      
+      function prevImage() {
+        const carouselSlide = document.querySelector('.carousel-slide');
+        if (currentIndex > 0) {
+          currentIndex--;
+          carouselSlide.scrollLeft -= carouselSlide.clientWidth;
+        }
+      }
+      
+      function nextImage() {
+        const carouselSlide = document.querySelector('.carousel-slide');
+        if (currentIndex < 64) {
+          currentIndex++;
+          carouselSlide.scrollLeft += carouselSlide.clientWidth;
+        }
+      }
+      
+      showImages();
+      </script>
+      <br>
+      <br>
+      <br>
+
+
+
+
+     
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved - <a href="#">Exoplanets</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
