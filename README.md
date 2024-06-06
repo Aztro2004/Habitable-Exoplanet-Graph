@@ -44,7 +44,8 @@ Our overall goal is that anyone who loves astronomy and planets, from the amateu
     *  mpl_toolkits.mplot3d
     * HTML
     * CSS
-    * Java Script 
+    * Java Script
+    * Docker
 
 * For Databases:
    * Datasets of Pandas
