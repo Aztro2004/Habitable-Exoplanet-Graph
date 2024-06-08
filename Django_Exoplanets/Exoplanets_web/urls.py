@@ -5,7 +5,7 @@ from . import views  #Importamos las vistas de las páginas de views.py
 urlpatterns = [
     path('',views.home,name='inicio'),   #vista principal de la página web
     path('Gallery/',views.galeria,name='galeria'),
-    path("Test/<int:ind>/", views.test, name="test"),
+    path("catalogue/<int:ind>/", views.catalogue, name="catalogue"),
     path('All/',views.todos,name='todos') #vista de todos
     
 ]

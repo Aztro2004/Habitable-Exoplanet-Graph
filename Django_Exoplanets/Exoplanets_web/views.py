@@ -3,9 +3,11 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 import math
 from random import randint
+
+from django.shortcuts import get_object_or_404
+from .models import Exoplanet
 
 # Create your views here.
 
@@ -14,22 +16,16 @@ def home(request):
     return render(request,'index.html')
 
 def galeria(request):
-    path = "Exoplanets_web/data.csv"
-    df = pd.read_csv('/home/claire/computo/Habitable-Exoplanet-Graph/Django_Exoplanets/Exoplanets_web/EXOPLANETAS.csv')  # Insert your path to the filtered database here
-    DF = [
-        (row["pl_name"], row["pl_rade"], row["st_rad"], row["pl_orbsmax"])
-        for index, row in df.iterrows()
-    ]
-    R = [randint(0,65) for i in range(4)]
+    R = [randint(1,66) for i in range(4)]
     c = 0
     for r in R:
-        row = DF[r]
+        exo = get_object_or_404(Exoplanet, id=r)
         Sun_planet_orb(
             f"Exoplanets_web/static/img/images/demo/Exoplanets/random({c})",
-            row[0],
-            row[1],
-            row[2],
-            row[3],
+            exo.pl_name,
+            exo.pl_rade,
+            exo.st_rad,
+            exo.pl_orbsmax,
         )
         c+=1
     return render(request,'gallery.html')
@@ -38,19 +34,24 @@ def todos(request):
     return render(request,'full-width.html')
 
 
-def test(request,ind):
-    path = "Exoplanets_web/data.csv"
-    df = pd.read_csv('/home/claire/computo/Habitable-Exoplanet-Graph/Django_Exoplanets/Exoplanets_web/EXOPLANETAS.csv')  # Insert your path to the filtered database here
-    DF = [
-        (row["pl_name"], row["pl_rade"], row["st_rad"], row["pl_orbsmax"])
-        for index, row in df.iterrows()
-    ]
-    row = DF[ind-1]
+def catalogue(request,ind):
+    exo = get_object_or_404(Exoplanet, id=ind)
     Sun_planet_orb(
-        'Exoplanets_web/static/img/images/demo/Exoplanets/actual', row[0], row[1], row[2], row[3]
+        "Exoplanets_web/static/img/images/demo/Exoplanets/actual1",
+        exo.pl_name,
+        exo.pl_rade,
+        exo.st_rad,
+        exo.pl_orbsmax,
     )
-    context = {"data": ind}
-    return render(request, "test.html",context)
+    context = {
+        "data": {
+            "pl_name": exo.pl_name,
+            "pl_rade": exo.pl_rade,
+            "st_rad": exo.st_rad,
+            "pl_orbsmax": exo.pl_orbsmax,
+        }
+    }
+    return render(request, "catalogue.html",context)
 
 
 def Sun_planet_orb(name, planet_name, radius_planet, radius_sun, radius_orb=None):
@@ -151,3 +152,4 @@ def Sun_planet_orb(name, planet_name, radius_planet, radius_sun, radius_orb=None
         f"{name}.png", dpi=350, bbox_inches="tight", facecolor="black"
     )
     plt.close()
+
