@@ -69,7 +69,7 @@ Licence URI: https://www.os-templates.com/template-terms
 
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded" style="background-image:url('../static/img/images/demo/backgrounds/01.jpg');"> 
+<div class="bgded" style="background-image:url('../../static/img/images/demo/backgrounds/01.jpg');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
@@ -95,22 +95,49 @@ Licence URI: https://www.os-templates.com/template-terms
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
+<body>
 
 <div class="wrapper row3">
   <main class="hoc container clear">
+    <h1 align="center">VISUALIZATION AND RELEVANT INFORMATION OF THE EXOPLANETS FOUND</h1>
+    <p>
+      <table class="data-table">
+        <thead>
+            <tr>
+                <th>Property</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>{{ data.pl_name }}</td>
+            </tr>
+            <tr>
+                <td>Planet Radius (Earth radius)</td>
+                <td>{{ data.pl_rade }}</td>
+            </tr>
+            <tr>
+                <td>Star Radius (Sun radius)</td>
+                <td>{{ data.st_rad }}</td>
+            </tr>
+            <tr>
+                <td>Orbital Semi-Major Axis (AU)</td>
+                <td>{{ data.pl_orbsmax }}</td>
+            </tr>
+        </tbody>
+    </table>
+    </p>
 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-     <h1 align="center">VISUALIZATION AND RELEVANT INFORMATION OF THE EXOPLANETS FOUND</h1>
-     <body>
       <div>
         <button id="prevBtn" onclick="prevImage()">Anterior</button>
-        <img src="../../static/img/images/demo/Exoplanets/actual.png"/>
+        <img src="../../static/img/images/demo/Exoplanets/actual1.png"/>
         <button id="nextBtn" onclick="nextImage()">Siguiente</button>
       </div>
       <script>
         var data = window.location.href;
         data = data.replace('http://127.0.0.1:8000/Test/','')
+        //Django_Exoplanets\Exoplanets_web\static\img\images\demo\Exoplanets\actual.png
         data = data.replace('/','')
         data = parseInt(data)
         let currentIndex = 0;
@@ -157,8 +184,5 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="../layout/scripts/jquery.min.js"></script>
-<script src="../layout/scripts/jquery.backtotop.js"></script>
-<script src="../layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
