@@ -16,7 +16,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="{% static 'css/layout.css' %}" rel="stylesheet" type="text/css" media="all">
-<li><a href="/Test/1/">Test </a></li>
+
 <style>
   .carousel-container {
     position: relative;
@@ -85,6 +85,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <li class="active"><a class="drop" href="#">Pages</a>
             <ul>
               <li><a href="{% url 'galeria' %}">Gallery Of Exoplanets </a></li>
+              <li><a href="/Test/1/">Test </a></li>
           </li>
           
   <!-- ################################################################################################ -->
@@ -102,46 +103,33 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
      <h1 align="center">VISUALIZATION AND RELEVANT INFORMATION OF THE EXOPLANETS FOUND</h1>
      <body>
-
-      <div class="carousel-container">
+      <div>
         <button id="prevBtn" onclick="prevImage()">Anterior</button>
-        <div class="carousel-slide">
-          <!-- Las imágenes se cargarán aquí -->
-        </div>
+        <img src="../../static/img/images/demo/Exoplanets/actual.png"/>
         <button id="nextBtn" onclick="nextImage()">Siguiente</button>
       </div>
-      
       <script>
-      let currentIndex = 0;
+        var data = window.location.href;
+        data = data.replace('http://127.0.0.1:8000/Test/','')
+        data = data.replace('/','')
+        data = parseInt(data)
+        let currentIndex = 0;
       
-      function showImages() {
-        const carouselSlide = document.querySelector('.carousel-slide');
-        carouselSlide.innerHTML = ''; // Limpia el contenido anterior
-        
-        for (let i = 0; i < 65; i++) {
-          const img = document.createElement('img');
-          img.src = `../static/img/images/demo/Exoplanets/planet_orbit_${i}.png`; // Ajusta la ruta de la imagen según tu estructura
-          carouselSlide.appendChild(img);
+        function prevImage() {
+          if(data==1){
+            window.location.href = "/Test/66";
+          } else {
+            window.location.href = `/Test/${data-1}`;
+          } 
         }
-      }
       
-      function prevImage() {
-        const carouselSlide = document.querySelector('.carousel-slide');
-        if (currentIndex > 0) {
-          currentIndex--;
-          carouselSlide.scrollLeft -= carouselSlide.clientWidth;
+        function nextImage() {
+          if(data==66){
+            window.location.href = "/Test/1";
+          } else {
+            window.location.href = `/Test/${data+1}`;
+          } 
         }
-      }
-      
-      function nextImage() {
-        const carouselSlide = document.querySelector('.carousel-slide');
-        if (currentIndex < 64) {
-          currentIndex++;
-          carouselSlide.scrollLeft += carouselSlide.clientWidth;
-        }
-      }
-      
-      showImages();
       </script>
       <br>
       <br>
