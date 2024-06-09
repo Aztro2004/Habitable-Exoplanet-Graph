@@ -7,7 +7,13 @@ WORKDIR /app
 # Instalar dependencias
 # COPY requirements.txt .
 # RUN pip install --no-cache-dir -r requirements.txt
+
 RUN pip install django
+RUN pip install matplotlib
+RUN pip install numpy
+RUN pip install pandas 
+
+
 
 # Copiar el resto del código fuente de la aplicación
 COPY . .
